@@ -33,7 +33,7 @@ int play(char* wo, char* sol, char* use, int liv, int* uc)
 
 void show(char* sol, int liv, char* use)
 {
-	printf("%s\n", sol);
+	printf("\n%s\n", sol);
 	printf("lives remaining %i\n", liv);
 	printf("Letters already used : ");
 	for(int i =0; i<=strlen(use); i++)
