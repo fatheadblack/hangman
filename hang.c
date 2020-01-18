@@ -7,7 +7,7 @@ int play(char* wo, char* sol, char* use, int liv, int* uc)
 
  char guess;
  bool success = false;
- printf("Enter your next guess : ");
+ printf("\nEnter your next guess : ");
  scanf(" %c", &guess);
 	
  for(int i =0; i<strlen(wo); i++)
