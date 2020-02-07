@@ -35,7 +35,7 @@ void show(char* sol, int liv, char* use)
 {
 	printf("\n%s\n", sol);
 	printf("lives remaining %i\n", liv);
-	printf("Letters already used : ");
+	printf(" Wrong letters already used : ");
 	for(int i =0; i<=strlen(use); i++)
 	 {
 		printf("%c",use[i]);
